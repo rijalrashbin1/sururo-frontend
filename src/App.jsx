@@ -7,7 +7,7 @@ import AdminDashboard from './AdminDashboard';
 import sururoLogo from './assets/sururo-removebg-preview.png';
 
 // Vite uses VITE_ prefix, not REACT_APP_
-const API_URL = import.meta.env.VITE_API_URL || '/api';
+const API_URL = 'https://sururo-backend.onrender.com/api';
 
 // ==================== NAVBAR ====================
 const SHOP_MEGA_MENU = [
