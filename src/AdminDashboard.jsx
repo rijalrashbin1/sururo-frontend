@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 
-const API_URL = import.meta.env.VITE_API_URL || '/api';
+const API_URL = 'https://sururo-backend.onrender.com/api';
 
 const EMPTY_FORM = {
   name: '', description: '', category_id: '',
