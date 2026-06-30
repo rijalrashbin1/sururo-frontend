@@ -1046,11 +1046,8 @@ function MyOrdersModal({ onClose, apiUrl }) {
 
         {orders.map(order => (
           <div key={order.id} style={{ border: '1px solid #eee', borderRadius: '8px', padding: '16px', marginBottom: '12px' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
+            <div style={{ marginBottom: '8px' }}>
               <strong>{order.customer_name}</strong>
-              <span style={{ background: order.status === 'completed' ? '#27ae60' : '#e67e22', color: 'white', padding: '2px 10px', borderRadius: '20px', fontSize: '12px' }}>
-                {order.status || 'pending'}
-              </span>
             </div>
             <p style={{ color: '#666', fontSize: '13px', marginBottom: '6px' }}>📅 {new Date(order.created_at).toLocaleDateString()}</p>
             <p style={{ fontWeight: '600', color: '#8B1C1C' }}>Total: Rs. {Number(order.total_amount).toLocaleString()}</p>
