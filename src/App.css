@@ -175,6 +175,20 @@ body {
   }
   .category-filter::-webkit-scrollbar { display: none; }
   .category-filter h3 { display: none; }
+  .category-filter .cat-item-wrap {
+    flex-shrink: 0;
+    position: relative;
+  }
+  .category-filter .statues-submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    width: max-content;
+    max-width: 80vw;
+    z-index: 20;
+    box-shadow: var(--shadow-md);
+  }
   .category-filter button {
     width: auto;
     white-space: nowrap;
