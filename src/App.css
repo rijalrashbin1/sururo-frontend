@@ -159,6 +159,7 @@ body {
 
 @media (max-width: 768px) {
   .products-layout { grid-template-columns: 1fr; }
+  .category-filter { display: none; }
 }
 
 /* ==================== CATEGORY FILTER ==================== */
