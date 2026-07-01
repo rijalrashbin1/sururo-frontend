@@ -165,7 +165,7 @@ body {
 .category-filter {
   background: white; padding: 20px; border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm); height: fit-content;
-  position: sticky; top: 120px; border: 1px solid var(--border);
+  position: sticky; top: clamp(70px, 14vw, 110px); border: 1px solid var(--border);
 }
 .category-filter h3 {
   font-size: 11px; text-transform: uppercase; letter-spacing: 2px;
